@@ -15,6 +15,8 @@ print(a)
 print(type(a))
 # %%
 #Problem 2
+y = 5.88
+x = 6
 b = y + x
 print(b)
 print(type(b))
@@ -64,7 +66,7 @@ d["gender"]="female"
 print(d)
 print(type(d))
 if "hobbies" in d:
-    print("Yes, 'hobbies' is in d")
+    print("Yes, 'hobbies' is in dict")
 d.pop("gender")
 print(d)
 # %%
