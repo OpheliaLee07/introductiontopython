@@ -2,10 +2,10 @@
 import pandas as pd 
 import plotly.graph_objects as go
 
-data = pd.read_csv(r"G:\My Drive\Employment\Columbia\04_Coursework\Introduction to Python\03_Lectures\Lecture_04\titanic\train.csv")
+data = pd.read_csv(r"/Users/Oofy/introductiontopython/03_Lectures/Lecture_04/titanic/train.csv")
 # %%
 print(data.columns)
-# %%
+#%%
 data.Survived.value_counts()
 
 #%%

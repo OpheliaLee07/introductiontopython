@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #%% 
 # First expressions 
 
@@ -58,6 +59,8 @@ hobbies = hobbies.replace(" ", "")
 hobbies = hobbies.split(",")
 hobbies = " and ".join(hobbies)
 =======
+=======
+>>>>>>> 77bd6e8d20387dc83b164c6f115e4fb27e692583
 #%%
 # First expressions
 
@@ -110,5 +113,8 @@ hobbies=hobbies.replace(" ","")
 hobbies.split(",")
 # %%
 hobbies="and".join(hobbies)
+<<<<<<< HEAD
 >>>>>>> 77bd6e8 (adding all)
+=======
+>>>>>>> 77bd6e8d20387dc83b164c6f115e4fb27e692583
 # %%

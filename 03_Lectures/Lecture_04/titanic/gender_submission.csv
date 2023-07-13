@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 PassengerId,Survived
 892,0
 893,1
@@ -419,6 +420,8 @@ PassengerId,Survived
 1308,0
 1309,0
 =======
+=======
+>>>>>>> 77bd6e8d20387dc83b164c6f115e4fb27e692583
 PassengerId,Survived
 892,0
 893,1
@@ -838,4 +841,7 @@ PassengerId,Survived
 1307,0
 1308,0
 1309,0
+<<<<<<< HEAD
 >>>>>>> 77bd6e8 (adding all)
+=======
+>>>>>>> 77bd6e8d20387dc83b164c6f115e4fb27e692583

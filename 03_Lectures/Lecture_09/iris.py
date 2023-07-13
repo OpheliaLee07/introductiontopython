@@ -3,13 +3,6 @@ import pandas as pd
 
 data = pd.read_csv("Iris.csv")
 # %%
-example = data[["Id", "Species"]]
-examples = data.loc[data["Species"] == "Iris-setosa"]
-examples = data.loc[data["SepalLengthCm"] >= 6]
-examples = data.iloc[:10]
-#%%
-example = data.drop(["Species"], axis=1)
-#%%
 import plotly.graph_objects as go
 
 data["Species_num"] = pd.factorize(data["Species"])[0]
@@ -60,6 +53,12 @@ fig.show()
 
 
 #%%
+# Import scikit learn
+from sklearn import datasets
+# Load data
+iris= datasets.load_iris()
+# Print shape of data to confirm data is loaded
+print(iris.data.shape)
 from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(
@@ -112,3 +111,4 @@ for n in range(1,10):
 from sklearn.metrics import classification_report, confusion_matrix
 print(confusion_matrix(y_test, y_predict))
 print(classification_report(y_test, y_predict)) 
+# %%
